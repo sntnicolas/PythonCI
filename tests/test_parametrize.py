@@ -1,0 +1,15 @@
+import pytest
+import requests
+
+@pytest.mark.parametrize(
+    "endpoint, expected_status",
+    [
+        ("/users", 200),
+        ("/posts", 201),
+        ("/invalid-endpoint", 404),
+    ]
+)
+def test_api_status_codes(endpoint, expected_status):
+    base_url = "https://jsonplaceholder.typicode.com"
+    response = requests.get(f"{base_url}{endpoint}")
+    assert response.status_code == expected_status
