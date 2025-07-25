@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f20c7da-4eca-4714-84a9-802822274f83" name="Changes" comment="добавил маркировку флаки тестов">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+    <list default="true" id="0f20c7da-4eca-4714-84a9-802822274f83" name="Changes" comment="добавил ci (запуск тестов на пр)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,8 @@
     &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;gh-pages&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_parametrize.test_api_status_codes" />
         <item itemvalue="Python tests.Python tests in tests" />
-        <item itemvalue="Python tests.Python tests for test_mocking.test_mocked_response" />
         <item itemvalue="Python tests.Python tests for tests.test_parametrize.test_api_status_codes" />
         <item itemvalue="Python tests.Python tests for tests.test_mocking.test_mocked_response" />
+        <item itemvalue="Python tests.Python tests for test_parametrize.test_api_status_codes" />
+        <item itemvalue="Python tests.Python tests for test_mocking.test_mocked_response" />
       </list>
     </recent_temporary>
   </component>
@@ -185,12 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1753341523875</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавил ci (запуск тестов на пр)">
+      <option name="closed" value="true" />
+      <created>1753425937673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753425937674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="upload to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload to git" />
+    <MESSAGE value="добавил ci (запуск тестов на пр)" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил ci (запуск тестов на пр)" />
   </component>
 </project>
