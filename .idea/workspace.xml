@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f20c7da-4eca-4714-84a9-802822274f83" name="Changes" comment="upload to git" />
+    <list default="true" id="0f20c7da-4eca-4714-84a9-802822274f83" name="Changes" comment="добавил ci (запуск тестов на пр)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,34 +20,47 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30HwmDH3AEhoYWY4kf6OwvTTI1o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for mocking.test_mocked_response.executor": "Run",
-    "Python tests.Python tests for parametrize.test_api_status_codes.executor": "Run",
-    "Python tests.Python tests for test_users.test_users_status_code.executor": "Run",
-    "Python tests.Python tests for test_users_api.test_get_users.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for mocking.test_mocked_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for parametrize.test_api_status_codes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_mocking.test_mocked_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_parametrize.test_api_status_codes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_users.test_users_status_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_users_api.test_get_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gh-pages&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sntni\PycharmProjects\LearnAuto\tests" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Python tests for test_users.test_users_status_code" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_parametrize.test_api_status_codes">
+    <configuration name="Python tests for test_mocking.test_mocked_response" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearnAuto" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +71,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_users.test_users_status_code&quot;" />
+      <option name="_new_target" value="&quot;test_mocking.test_mocked_response&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_parametrize.test_api_status_codes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="LearnAuto" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_parametrize.test_api_status_codes&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -90,27 +120,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_users.test_get_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearnAuto" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_users.test_get_users&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in tests" />
         <item itemvalue="Python tests.Python tests for tests.test_parametrize.test_api_status_codes" />
         <item itemvalue="Python tests.Python tests for tests.test_mocking.test_mocked_response" />
-        <item itemvalue="Python tests.Python tests for test_users.test_users_status_code" />
-        <item itemvalue="Python tests.Python tests for tests.test_users.test_get_users" />
+        <item itemvalue="Python tests.Python tests for test_parametrize.test_api_status_codes" />
+        <item itemvalue="Python tests.Python tests for test_mocking.test_mocked_response" />
       </list>
     </recent_temporary>
   </component>
@@ -138,11 +169,37 @@
       <option name="project" value="LOCAL" />
       <updated>1753339960683</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upload to git">
+      <option name="closed" value="true" />
+      <created>1753340051704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753340051704</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upload to git">
+      <option name="closed" value="true" />
+      <created>1753341523875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753341523875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавил ci (запуск тестов на пр)">
+      <option name="closed" value="true" />
+      <created>1753425937673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753425937674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="upload to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload to git" />
+    <MESSAGE value="добавил ci (запуск тестов на пр)" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил ci (запуск тестов на пр)" />
   </component>
 </project>

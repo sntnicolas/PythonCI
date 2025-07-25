@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","365","test_api_status_codes[/invalid-endpoint-404]","tests","Thu Jul 24 22:38:54 MSK 2025","passed","Thu Jul 24 22:38:55 MSK 2025","","test_parametrize","",""
+"","4","test_mocked_response","tests","Thu Jul 24 22:38:52 MSK 2025","passed","Thu Jul 24 22:38:52 MSK 2025","","test_mocking","",""
+"","311","test_get_users","tests","Thu Jul 24 22:38:55 MSK 2025","passed","Thu Jul 24 22:38:55 MSK 2025","","test_users","",""
+"","609","test_api_status_codes[/posts-201]","tests","Thu Jul 24 22:38:54 MSK 2025","failed","Thu Jul 24 22:38:54 MSK 2025","","test_parametrize","",""
+"","319","test_users_status_code","tests","Thu Jul 24 22:38:55 MSK 2025","passed","Thu Jul 24 22:38:55 MSK 2025","","test_users","",""
+"","1585","test_api_status_codes[/users-200]","tests","Thu Jul 24 22:38:52 MSK 2025","passed","Thu Jul 24 22:38:54 MSK 2025","","test_parametrize","",""

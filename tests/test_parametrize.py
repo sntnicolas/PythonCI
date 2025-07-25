@@ -11,5 +11,5 @@ import requests
 )
 def test_api_status_codes(endpoint, expected_status):
     base_url = "https://jsonplaceholder.typicode.com"
-    response = requests.get(f"{base_url}{endpoint}")
+    response = requests.get(f"{base_url}{endpoint}", timeout=5)
     assert response.status_code == expected_status
