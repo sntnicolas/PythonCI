@@ -32,6 +32,16 @@ jobs:
 #          name: allure-results
 #          path: allure-results
 
+      - name: Install Allure CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y default-jre
+          wget https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz
+          tar -zxvf allure-2.27.0.tgz
+          sudo mv allure-2.27.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+          allure --version  # проверка
+
       - name: Generate Allure report
         run: |
           pip install allure-python-commons
@@ -45,6 +55,6 @@ jobs:
 
       - name: Print link to report
         run: |
-          echo "🧪 Allure report: https://sntnicolas.github.io/PythonCI/"
+          echo "🧪 Allure report: https://sntnicolas.github.io/PythonCI/?v=${{ github.run_number }}"
 
 
