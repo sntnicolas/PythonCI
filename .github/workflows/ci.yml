@@ -43,4 +43,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
 
+      - name: Print link to report
+        run: |
+          echo "🧪 Allure report: https://sntnicolas.github.io/PythonCI/"
+
 
