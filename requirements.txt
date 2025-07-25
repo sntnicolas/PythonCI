@@ -1,3 +1,0 @@
-pytest
-allure-pytest
-requests
