@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# Ignore workspace settings (локальные настройки PyCharm)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+
+# MacOS
+.DS_Store
