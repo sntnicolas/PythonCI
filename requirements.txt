@@ -1,4 +1,4 @@
 pytest
 allure-pytest
 requests
-responces
+responses
