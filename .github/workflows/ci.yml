@@ -60,3 +60,22 @@ jobs:
       - name: Print link to report
         run: |
           echo "🧪 Allure report: https://sntnicolas.github.io/PythonCI/?v=${{ github.run_number }}"
+
+      - name: Send Allure report link to email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.EMAIL_HOST }}
+          server_port: ${{ secrets.EMAIL_PORT }}
+          secure: false
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Allure Report for PR #${{ github.event.pull_request.number }}"
+          to: ${{ secrets.EMAIL_TO }}
+          from: ${{ secrets.EMAIL_USERNAME }}
+          body: |
+            Привет!
+
+            Тесты прошли, смотри отчет Allure:
+            https://sntnicolas.github.io/PythonCI/
+
+            -- GitHub Actions
