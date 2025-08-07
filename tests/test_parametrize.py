@@ -5,7 +5,7 @@ import requests
     "endpoint, expected_status",
     [
         ("/users", 200),
-        ("/posts", 200),
+        ("/posts", 200),  # fake
         ("/posts", 201),
         ("/invalid-endpoint", 404),
     ]
